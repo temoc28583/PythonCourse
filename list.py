@@ -32,3 +32,5 @@ print(fruit[3:]) #prints everything from index 3 to the end
 print(random.choice(name)) #prints a random name from the names list
 name.append("Oliver")
 print(name[2])
+name+=fruit
+print(name) #added fruit content to the end
